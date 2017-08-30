@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 });
 
 
-console.log("hi there");
+console.log("hi there, how are you doing?");
