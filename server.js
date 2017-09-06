@@ -11,5 +11,8 @@ app.get('/', (req, res) => {
 	res.send('Hi there from your app');
 });
 
+app.get('/about', (req, res) => {
+	res.send('This is where you can find out about things');
+});
 
-console.log("hi there, how are you doing?");
+console.log("hi there from your server!");
