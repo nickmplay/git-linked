@@ -1,6 +1,7 @@
 const express = require('express');
 
 var app = express();
+app.use(express.static('public'));
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
@@ -8,6 +9,7 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
+	//won't display as express returns index.html
 	res.send('Hi there from your app');
 });
 
