@@ -19,9 +19,5 @@
     "express": "^4.15.4",
     "mocha": "^3.5.0",
     "nodemon": "^1.11.0"
-  },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/nickmplay/git-linked"
-	}
+  }
 }
