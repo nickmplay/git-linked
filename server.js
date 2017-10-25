@@ -16,5 +16,5 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 	res.send('This is where you can find out about things');
 });
-
+//this line doesnt show
 console.log("hi there from your server!");
